@@ -18,11 +18,7 @@ namespace ClassMetotDemo
             musteri2.LastName = "Kaylan";
             musteri2.TcNo = "12345678911";
 
-            Musteri musteri3 = new Musteri();
-            musteri3.Id = 3;
-            musteri3.FirstName = "Ahmet";
-            musteri3.LastName = "Efe";
-            musteri3.TcNo = "12345678912";
+            Musteri musteri3 = new Musteri {Id = 3, FirstName = "Ahmet", LastName = "Efe", TcNo = "12345678912" };
 
             Musteri musteri4 = new Musteri();
             musteri4.Id = 4;
